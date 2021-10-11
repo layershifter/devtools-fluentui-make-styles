@@ -1,0 +1,17 @@
+:global(body) {
+  margin: 0;
+}
+
+.container {
+  font-size: 14px;
+  overflow: hidden;
+}
+
+.rule {
+  display: flex;
+  flex-direction: column;
+
+  border-bottom: 1px solid #cacdd1;
+  font-family: monospace;
+  font-size: 12px;
+}

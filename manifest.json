@@ -1,0 +1,10 @@
+{
+  "description": "Adds a new sidebar to the developer tools inspector panel to inspect classes generated with makeStyles.",
+  "manifest_version": 2,
+  "name": "devtools-fluentui-make-styles",
+  "version": "1.0",
+  "author": "Oleksandr Fediashov",
+  "homepage_url": "https://github.com/",
+  "permissions": ["<all_urls>"],
+  "devtools_page": "devtools/devtools-page.html"
+}

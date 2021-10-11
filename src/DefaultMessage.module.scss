@@ -1,0 +1,33 @@
+.container {
+  font-family: serif;
+  font-size: 14px;
+
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-gap: 3px;
+
+  margin: 5px;
+
+  > u {
+    text-decoration: none;
+    position: relative;
+    top: -5px;
+  }
+
+  > div {
+    &::after {
+      content: "";
+
+      display: block;
+      height: 100%;
+      width: calc(100% + 5px);
+
+      position: relative;
+      top: calc(-100%);
+      left: -10px;
+      z-index: -1;
+
+      border: 1px dotted deepskyblue;
+    }
+  }
+}
